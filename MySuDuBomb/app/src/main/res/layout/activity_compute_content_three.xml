@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_layout_comput"
+    android:layout_margin="@dimen/compute_content_xijie_padding"
+    android:padding="@dimen/compute_content_xijie_padding"
+    >
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI(身体质量指数)是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。"
+        android:textSize="@dimen/compute_content_textsize"/>
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI 小于18.5   偏轻"
+        android:textSize="@dimen/compute_content_textsize"/>
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI 18.5—23   标准"
+        android:textSize="@dimen/compute_content_textsize"/>
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI 大于23      超重"
+        android:textSize="@dimen/compute_content_textsize"/>
+
+</LinearLayout>

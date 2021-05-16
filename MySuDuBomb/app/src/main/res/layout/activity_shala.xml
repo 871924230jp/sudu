@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <com.example.mysudubomb.myview.MyImageView
+        android:id="@+id/miv_shala"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tupian_high"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_shuoming_high"
+        android:text="“蔬果，是防癌、抗老化、增强免疫力、体重控制、养颜美容的好食物”"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_high"
+        android:background="#4C4C4E"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1份鸡肉沙拉(350.0克)含有热量260大卡"
+        android:textSize="@dimen/text_shuoming_high"
+        android:textColor="@color/normal"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#282829"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="食材"
+        android:textSize="@dimen/shiwu_high"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twotopview_high"
+        android:background="#DBDBDD"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  鸡肉"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="100g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  西生菜"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="50g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  胡萝卜"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="30g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  紫甘蓝"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="50g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  水萝卜"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="50g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  胡椒粉"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="少许"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  蜂蜜"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="少许"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="   做法：准备食材，各种材料清洗干净,
+热锅下油,蒸烤鸡胸肉室温解冻，放入烤盘入烤箱180度10分钟，也可以选择微波1分钟或是水煮5分钟的方法.食材切丝，所有食材入碗加入苹果醋、蜂蜜、橄榄油拌匀，倒入蔬菜中，最后加入黑胡椒碎拌匀即可 "
+                android:textColor="@color/normal"
+                android:textSize="@dimen/zuofa" />
+
+            <View
+                android:layout_marginTop="@dimen/topview_high"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_high"
+                android:background="#DBDBDD"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <channel>
+    <item>
+      <food>紫薯</food>
+     <content>2.7份 约54g</content>
+      <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX0Z54kIhH2xMFOQZqL14KFNJ0*p8EAduVggCBuRZcsqCLx0LVEZxuuC89i0R50L.lPSgyZcJaOE0aCEo4OHUekg!/r</image>
+    </item>
+    <item>
+        <food>奶酪</food>
+        <content>6.4片 约64g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX7Yh.8B7gN12Uo2O4E7TPNW3OQNB3jG**1kO2R78WQDTCE4H6oiKG2GUMum04y.T5fSGFRnqtYqL1wz8kndlWVQ!/r</image>
+    </item>
+    <item>
+        <food>茼蒿</food>
+        <content>约139g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX5ahEsiMlGG4lu6YhPCElbAjxFgs0tpatsizO*jSt3XV4NNGSkshIO48b89RoQhU*wOJOY7eS1DShzKEnYG.gz0!/r</image>
+    </item>
+    <item>
+        <food>鸡腿</food>
+        <content>1.3个 约135g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX8PCaBgNVvFCCFNBTmriOqH7WOJl2BxaUKxUgu.LemBFHDEpnfQbQ4yU4w4f3pjkjjOnMKWt12cB1zrHd3KCqP4!/r</image>
+    </item>
+    <item>
+        <food>茄子</food>
+        <content>2.0份 约162g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX.QSplbStq2Ha58b2IZy5SXFn9n2NE8gZwMTLYMP8jA0P5L3nuG7lp6jBDO5CAkGKg.YG9Vx9HWxu6Ef0.SlEMQ!/r</image>
+    </item>
+    <item>
+        <food>牛奶</food>
+        <content>1.4杯 约350g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX1eu2ZY62Np7oQmJ69wzPMnZoWoyphXBR4s7nQcXO1.xoTIV1aRDZ7fbazmnEP0S3Ld2dunYridHmE1fGfIYz3M!/r</image>
+    </item>
+    <item>
+        <food>腰果</food>
+        <content>约16g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX4wRqdbCLGJPH*HWQvnmO8hW0tRlxK22twtuRBWi40ViYd0B.HhyC37qfUZRBwWfpYD9qF4zKqjjZYZAa*c0d1A!/r</image>
+    </item>
+    <item>
+        <food>大米</food>
+        <content>约72g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANX2bZrq4HQgfX*K8R29Qgka.yyAjPD8Qwn31DVaUJVKHVnwMq*euniKs0pan.lyI9ms.g3posDUyT2ZeJaPjkTEg!/r</image>
+    </item>
+    <item>
+        <food>娃娃菜</food>
+        <content>2.8份 约538g</content>
+        <image>http://r.photo.store.qq.com/psc?/V12fRLIz1E8vqI/TCfiP1YaPeRT4Jil9RANXzGyGgJWBw87VK9AnOeIqAhJLNbKiSO8NWxZ5v.ZvpihUB6NgnWhpu*WCgyRaRDGgbQXdYV7qj4Sva7lXsOPv5I!/r</image>
+    </item>
+
+  </channel>
+

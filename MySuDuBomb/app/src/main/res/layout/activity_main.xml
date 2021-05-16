@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<com.jaredrummler.android.widget.AnimatedSvgView
+    android:id="@+id/animated_svg_view"
+    android:layout_width="@dimen/main_image"
+    android:layout_height="@dimen/main_image"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/main_image"
+    app:animatedSvgFillColors="@array/app_icon_color"
+    app:animatedSvgFillStart="1200"
+    app:animatedSvgFillTime="1000"
+    app:animatedSvgGlyphStrings="@array/app_icon_path"
+    app:animatedSvgImageSizeX="900"
+    app:animatedSvgImageSizeY="900"
+    app:animatedSvgTraceMarkerLength="50"
+    app:animatedSvgTraceTime="2000"
+    app:animatedSvgTraceTimePerGlyph="1000"
+    />
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带上你的素食态度"
+        android:textSize="@dimen/main_text"
+        android:textColor="@color/color_Maintext"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/main_mt"/>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/activity_mine_beijing"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ll_mine_user"
+            android:layout_weight="1.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <include layout="@layout/activity_mine_title" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/activity_mine_three" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/mine_content_between_three"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include layout="@layout/activity_mine_daka" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mine_view"
+                android:background="@color/color_view" />
+
+<!--
+            <include layout="@layout/activity_mine_fankui" />
+-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mine_view"
+                android:background="@color/color_view" />
+
+            <include layout="@layout/activity_mine_guanyu" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

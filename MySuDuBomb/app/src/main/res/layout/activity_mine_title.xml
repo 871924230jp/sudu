@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/mine_title_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:circleimageview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_mine_image"
+        android:layout_width="@dimen/mine_title_touxiang"
+        android:layout_height="@dimen/mine_title_touxiang"
+        android:layout_centerVertical="true"
+     />
+    <TextView
+        android:id="@+id/tv_mine_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_mine_image"
+        android:layout_marginLeft="@dimen/mine_title_left"
+        android:text="请输入用户名"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/mine_title_name_size"
+        android:textColor="@color/color_Mine_Titlename"
+
+        />
+    <TextView
+        android:id="@+id/tv_mine_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_mine_name"
+        android:layout_alignBottom="@id/iv_mine_image"
+        android:layout_marginTop="@dimen/mine_three_mt"
+        android:layout_marginLeft="@dimen/mine_title_left"
+        android:textColor="@color/color_Mine_Titledecs"
+        android:layout_toRightOf="@id/iv_mine_image"
+        android:textSize="@dimen/mine_three_text"
+        android:maxLines="1"
+        android:text="请输入描述..."/>
+
+</RelativeLayout>

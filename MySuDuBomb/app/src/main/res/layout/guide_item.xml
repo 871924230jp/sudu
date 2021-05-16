@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/guide_item_padding">
+
+    <com.example.mysudubomb.myview.MyImageView
+        android:id="@+id/iv_guide_image"
+        android:layout_width="@dimen/guide_item_miv"
+        android:layout_height="@dimen/guide_item_miv"
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_guide_image"
+        android:textColor="@color/color_Maintext"
+        android:layout_marginLeft="@dimen/guide_item_ml"
+        android:id="@+id/tv_guide_name"
+        android:text=""
+        android:layout_marginTop="@dimen/guide_item_mt"
+        android:textSize="@dimen/guide_item_text_big" />
+
+    <TextView
+        android:id="@+id/tv_guide_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/guide_item_mt"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textSize="@dimen/guide_item_text"
+        android:textColor="@color/color_Maintext"/>
+
+</RelativeLayout>

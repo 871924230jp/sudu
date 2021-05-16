@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mine_three_lin_height">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ll_mine_collect"
+            android:elevation="@dimen/mine_three_elevation"
+            android:onClick="onclick"
+            android:layout_width="@dimen/mine_three_width"
+            android:layout_height="@dimen/mine_three_height"
+            android:background="@drawable/shape_layout_mine_three"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_mine_collect"
+                android:onClick="onclick"
+                android:layout_width="@dimen/mine_three_bt"
+                android:layout_height="@dimen/mine_three_bt"
+                android:gravity="center"
+                android:background="@mipmap/mine_collect"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的收藏"
+                android:textSize="@dimen/mine_three_text"
+                android:textColor="@color/color_Maintext"
+                android:layout_marginTop="@dimen/mine_three_mt"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+
+            android:id="@+id/ll_mine_health"
+            android:elevation="@dimen/mine_three_elevation"
+            android:background="@drawable/shape_layout_mine_three"
+            android:layout_width="@dimen/mine_three_width"
+            android:layout_height="@dimen/mine_three_height"
+            android:onClick="onclick"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_mine_health"
+                android:onClick="onclick"
+                android:layout_width="@dimen/mine_three_bt"
+                android:layout_height="@dimen/mine_three_bt"
+                android:gravity="center"
+                android:background="@mipmap/mine_jkpc"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="健康评测"
+                android:textSize="@dimen/mine_three_text"
+                android:textColor="@color/color_Maintext"
+                android:layout_marginTop="@dimen/mine_three_mt"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+
+            android:id="@+id/ll_mine_exe"
+            android:onClick="onclick"
+            android:elevation="@dimen/mine_three_elevation"
+            android:background="@drawable/shape_layout_mine_three"
+            android:layout_width="@dimen/mine_three_width"
+            android:layout_height="@dimen/mine_three_height"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_mine_exe"
+                android:onClick="onclick"
+                android:layout_width="@dimen/mine_three_bt"
+                android:layout_height="@dimen/mine_three_bt"
+                android:gravity="center"
+                android:background="@mipmap/mine_ydxh"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="运动消耗"
+                android:textSize="@dimen/mine_three_text"
+                android:textColor="@color/color_Maintext"
+                android:layout_marginTop="@dimen/mine_three_mt"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

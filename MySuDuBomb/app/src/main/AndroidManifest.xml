@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mysudubomb">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/suduicon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/suduicon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activities.RegisterActivity"></activity>
+        <activity android:name=".activities.CropActivity" />
+        <activity android:name=".activities.UpdateDesActivity" />
+        <activity android:name=".activities.UpdateNameActivity" />
+
+        <receiver
+            android:name=".receiver.NetworkChangeReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activities.everyactivities.ShalaActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.everyactivities.QuanmaiActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.everyactivities.YmMakeActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.everyactivities.DoujiangActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.everyactivities.BingActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.EveryActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.BannerArticleActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.AudioActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.UpdataUserActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.MajorActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activities.ShareXiangActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.PublishActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.ArticleActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.SearchActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.GuideActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.CollectActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.AwareActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.MotionActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.ComputeActivity"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activities.HealthActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.GuanyuActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.XiangXiActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <service android:name=".service.MusicService" />
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="com.example.mysudubomb.BmobContentProvider" />
+    </application>
+
+</manifest>

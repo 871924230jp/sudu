@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/motion_pop_padding"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/color_Whitecolor"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_motion_mp"
+        android:textColor="@color/color_Notetext"
+        android:onClick="onclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/motion_pop_padding"
+        android:textSize="@dimen/motion_pop_text"
+        android:text="慢跑" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_view"
+        android:background="@color/color_view_pop" />
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:id="@+id/tv_motion_wd"
+        android:onClick="onclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/motion_pop_text"
+        android:padding="@dimen/motion_pop_padding"
+        android:text="舞蹈" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_view"
+        android:background="@color/color_view_pop" />
+
+    <TextView
+        android:id="@+id/tv_motion_yy"
+        android:textColor="@color/color_Notetext"
+        android:onClick="onclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/motion_pop_padding"
+        android:textSize="@dimen/motion_pop_text"
+        android:text="游泳" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_view"
+        android:background="@color/color_view_pop" />
+
+    <TextView
+        android:id="@+id/tv_motion_kz"
+        android:textColor="@color/color_Notetext"
+        android:onClick="onclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/motion_pop_padding"
+        android:textSize="@dimen/motion_pop_text"
+        android:text="快走" />
+</LinearLayout>

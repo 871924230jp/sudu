@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    >
+    <LinearLayout
+        android:id="@+id/ll_yszn"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onclick"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_yszn"
+            android:onClick="onclick"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@mipmap/mainpage_yszn"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="饮食指南"
+            android:textSize="13dp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_swck"
+        android:onClick="onclick"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_swck"
+            android:onClick="onclick"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@mipmap/mainpage_swck"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="食物仓库"
+            android:textSize="13dp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_mrtj"
+        android:onClick="onclick"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_mrtj"
+            android:onClick="onclick"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+
+            android:background="@mipmap/mainpage_mrtj"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每日推荐"
+            android:textSize="13dp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_layout_comput"
+    android:layout_margin="@dimen/compute_content_margin"
+    android:padding="@dimen/compute_content_padding"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <include layout="@layout/activity_compute_content_age"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/compute_content_view"
+        android:background="@color/color_view"/>
+    <include layout="@layout/activity_compute_content_sjkg"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/compute_content_view"
+        android:background="@color/color_view"/>
+    <include layout="@layout/activity_compute_content_lxkg"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/compute_content_view"
+
+        android:background="@color/color_view"/>
+    <include layout="@layout/activity_compute_content_bmi"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/compute_content_view"
+        android:background="@color/color_view"/>
+    <include layout="@layout/activity_compute_content_bmr"/>
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

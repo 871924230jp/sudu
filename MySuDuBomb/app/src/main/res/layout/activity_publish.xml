@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/color_Whitecolor"
+        >
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/all_title_padding">
+        <Button
+            android:id="@+id/btn_publish_fs"
+            android:background="@color/color_Whitecolor"
+            android:onClick="onclick"
+            android:text="取消"
+            android:textSize="@dimen/publish_text"
+            android:layout_width="@dimen/publish_btn_w"
+            android:layout_height="@dimen/publish_btn_h"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布预览"
+            android:textSize="@dimen/all_title_text_size"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_Maintext"/>
+        <Button
+            android:id="@+id/btn_publish_over"
+            android:onClick="onclick"
+            android:layout_alignParentRight="true"
+            android:text="发布"
+            android:textSize="@dimen/publish_text"
+            android:layout_width="@dimen/publish_btn_w"
+            android:layout_height="@dimen/publish_btn_h"
+            android:background="@drawable/shape_layout_jisuan_btn"
+            android:textColor="@color/color_Whitecolor"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/publish_padding"
+
+        >
+        <ImageView
+            android:id="@+id/iv_publish"
+            android:layout_width="@dimen/publish_myimage"
+            android:layout_height="@dimen/publish_myimage"
+            android:background="@mipmap/loading_default"/>
+    </LinearLayout>
+    <include layout="@layout/activity_publish_content"/>
+
+</LinearLayout>

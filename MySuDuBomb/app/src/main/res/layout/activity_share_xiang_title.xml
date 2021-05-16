@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+        <Button
+            android:id="@+id/btn_sx_finish"
+            android:onClick="onclick"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@mipmap/jiantou_left_black"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_share_touxiang"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/mine_touxiang"/>
+        <TextView
+            android:id="@+id/tv_share_xiangxi_name"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/color_Maintext"
+           />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/color_Maincolor"
+        >
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_Maincolor"
+        android:padding="@dimen/all_title_padding">
+        <Button
+            android:onClick="onclick"
+            android:id="@+id/btn_finish_aware"
+            android:layout_width="@dimen/all_title_bt_size"
+            android:layout_height="@dimen/all_title_bt_size"
+            android:background="@mipmap/jiantou_left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="食物仓库"
+            android:textSize="@dimen/all_title_text_size"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_Whitecolor"/>
+    </RelativeLayout>
+    <ListView
+        android:background="@color/color_Whitecolor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_aware"
+        >
+
+    </ListView>
+
+</LinearLayout>

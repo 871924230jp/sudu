@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_Muorencolor">  #A79191</color>
+
+    <color name="color_Maincolor">#757F8F</color>
+    <color name="color_Whitecolor">#FCFAFA</color>
+    <color name="color_Greencolor">#7DA580</color>
+    <color name="color_Maintext">#221212</color>
+    <color name="color_Notetext">#746B6B</color>
+
+    <color name="color_Mine_Titlename">#F8F2F2</color>
+    <color name="color_Mine_Titledecs">#E4CFCF</color>
+
+    <color name="color_food_item_big">#4B4B5A</color>
+    <color name="color_food_item_small">#928686</color>
+
+    <color name="color_view">#ECF0E9</color>
+
+    <color name="color_view_hlandex">#F7F0F0</color>
+    <color name="color_view_pop">#A09A9A</color>
+
+
+    <color name="color_guide_text">#DDD0D0</color>
+    <color name="color_guide_dibu">#EBE5E5</color>
+
+
+    <color name="color_na_back">#EDF7F4</color>
+    <color name="color_na_text">#A79191</color>
+
+
+
+    <color name="Bluecolor">#6E43E7</color>
+
+
+    <!--lcy-->
+    <color name="colorwhite">#FCFAFA</color>
+    <color name="color_denglucolor">#8B8F8B</color>
+    <color name="colorLN">#4D8052</color>
+    <color name="color_youyouyou">#282829</color>
+    <color name="normal">#282829</color>
+
+</resources>

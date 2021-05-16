@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_Maincolor"
+        android:padding="@dimen/all_title_padding">
+        <Button
+            android:onClick="onclick"
+            android:id="@+id/btn_finish_health"
+            android:layout_width="@dimen/all_title_bt_size"
+            android:layout_height="@dimen/all_title_bt_size"
+            android:background="@mipmap/jiantou_left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="健康测评"
+            android:textSize="@dimen/all_title_text_size"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_Whitecolor"/>
+    </RelativeLayout>
+    <include layout="@layout/activity_health_introduce"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/health_view"
+        android:background="@color/color_view_hlandex"
+        />
+    <include layout="@layout/activity_health_content" />
+
+    <include layout="@layout/activity_health_btn"/>
+</LinearLayout>

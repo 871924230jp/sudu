@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <com.example.mysudubomb.myview.MyImageView
+        android:id="@+id/miv_quanmai"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tupian_high"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_shuoming_high"
+        android:text="“来一片全麦面包，除了吃到丰富的纤维素外，更可吃出小麦天然的麦香味”"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_high"
+        android:background="#4C4C4E"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="259大卡/100g，含碳水化合物47.14克，脂肪4.11克，蛋白质9.13克"
+        android:textSize="@dimen/text_shuoming_high"
+        android:textColor="@color/normal"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#282829"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="食材"
+        android:textSize="@dimen/shiwu_high"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twotopview_high"
+        android:background="#DBDBDD"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="  牛奶"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="80g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  全蛋液"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="47g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  全麦粉"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="200g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  白糖"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="20g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  黄油"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="20g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  酵母"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="3g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  盐"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="2g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   做法：原料除黄油外全部投到面包桶中，和面15分钟。放入20g室温软化的黄油继续和面15分钟。面团放入大碗中，盖保鲜膜发酵至2倍大 ，取出面团后排气面团分成三份，揉圆，盖保鲜膜松弛15分钟，把擀开的面片卷起做成橄榄状，放入烤箱二次发酵（烤箱不插电，放一碗开水即可）。用锋利的刀片割三条长口，烤箱上下火，中层，180°，15分钟即可"
+                android:textSize="@dimen/zuofa"
+                android:textColor="@color/normal"/>
+            <View
+                android:layout_marginTop="@dimen/topview_high"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_high"
+                android:background="#DBDBDD"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

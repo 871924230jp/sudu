@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CircleFragment">
+    <FrameLayout
+        android:id="@+id/fl_share_login"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="点击前去登录"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/fl_share"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<com.google.android.material.tabs.TabLayout
+    android:id="@+id/tl_circle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:tabIndicatorHeight="0dp"
+    app:tabMode="fixed"
+    app:tabSelectedTextColor="#000"
+    app:tabTextColor="#CFC7C7"
+    app:tabBackground="@color/color_na_back"
+    />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

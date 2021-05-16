@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AudioActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/color_Maincolor"
+        >
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_Maincolor"
+        android:padding="@dimen/all_title_padding">
+        <Button
+            android:onClick="onclick"
+            android:id="@+id/btn_finish_audio"
+            android:layout_width="@dimen/all_title_bt_size"
+            android:layout_height="@dimen/all_title_bt_size"
+            android:background="@mipmap/jiantou_left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="健康电台"
+            android:textSize="@dimen/all_title_text_size"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_Whitecolor"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            >
+            <com.example.mysudubomb.myview.MyImageView
+                android:id="@+id/miv_audio"
+                android:layout_marginTop="@dimen/audio_mtop"
+                android:layout_width="@dimen/audio_myimage"
+                android:layout_height="@dimen/audio_myimage"
+                android:layout_gravity="center"/>
+
+
+<LinearLayout
+    android:padding="@dimen/audio_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_play_and_pause"
+        android:text="播放"
+        android:layout_width="@dimen/audio_btn_w"
+        android:layout_height="@dimen/audio_btn_h"
+        android:onClick="onclick"
+        android:textSize="@dimen/audio_text"
+        android:textColor="@color/color_Whitecolor"
+        android:background="@drawable/shape_layout_jisuan_btn"
+        />
+    <Button
+        android:id="@+id/btn_replay"
+        android:text="重播"
+        android:layout_width="@dimen/audio_btn_w"
+        android:layout_height="@dimen/audio_btn_h"
+        android:onClick="onclick"
+        android:layout_marginLeft="@dimen/audio_mleft"
+        android:textSize="@dimen/audio_text"
+        android:textColor="@color/color_Whitecolor"
+        android:background="@drawable/shape_layout_jisuan_btn"
+        />
+
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/audio_padding"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/audio_text"
+                    android:textColor="@color/color_Maintext"
+                    android:text="         嗨~大家好！小花老师开课啦！
+本节课我们会从最核心基础的地方讲起，
+围绕主题：如何有效地减脂塑型，给大家一些建议~
+课程二我们将从代谢与摄入说起，
+怎样去提高自己的代谢，又怎么去管理自己的饮食呢
+听完这节课肯定会对你有所帮助！"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

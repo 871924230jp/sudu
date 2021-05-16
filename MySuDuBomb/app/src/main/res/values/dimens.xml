@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="all_title_padding">12dp</dimen>
+    <dimen name="all_title_text_size">18dp</dimen>
+    <dimen name="all_title_bt_size">30dp</dimen>
+
+    <dimen name="xiangxi_image_size">340dp</dimen>
+    <dimen name="xiangxi_text_big">15dp</dimen>
+    <dimen name="xiangxi_text_small">13dp</dimen>
+    <dimen name="xiangxi_padding">15dp</dimen>
+    <dimen name="xiangxi_margin">10dp</dimen>
+
+    <dimen name="mine_view">1dp</dimen>
+
+    <dimen name="mine_three_lin_height">145dp</dimen>
+    <dimen name="mine_three_shape_layout">10dp</dimen>
+    <dimen name="mine_three_elevation">3dp</dimen>
+    <dimen name="mine_three_bt">30dp</dimen>
+    <dimen name="mine_three_width">100dp</dimen>
+    <dimen name="mine_three_height">120dp</dimen>
+    <dimen name="mine_three_text">13dp</dimen>
+    <dimen name="mine_three_mt">15dp</dimen>
+
+    <dimen name="mine_title_padding">15dp</dimen>
+    <dimen name="mine_title_touxiang">70dp</dimen>
+    <dimen name="mine_title_left">25dp</dimen>
+    <dimen name="mine_title_name_size">18dp</dimen>
+
+    <dimen name="mine_content_padding">10dp</dimen>
+    <dimen name="mine_content_image">30dp</dimen>
+    <dimen name="mine_content_button">25dp</dimen>
+    <dimen name="mine_content_text">15dp</dimen>
+    <dimen name="mine_content_left">15dp</dimen>
+    <dimen name="mine_content_between_three">10dp</dimen>
+
+    <dimen name="food_item_padding">13dp</dimen>
+    <dimen name="food_item_text_big">20dp</dimen>
+    <dimen name="food_item_text_small">15dp</dimen>
+    <dimen name="food_item_sc_betweeen_kcal">10dp</dimen>
+    <dimen name="food_item_100g_betweeen_kcal">5dp</dimen>
+
+
+    <dimen name="guanyu_textsize">20dp</dimen>
+    <dimen name="guanyu_padding">8dp</dimen>
+    <dimen name="guanyu_image_size">250dp</dimen>
+    <dimen name="guanyu_margintop_big">30dp</dimen>
+    <dimen name="guanyu_margintop_small">5dp</dimen>
+
+    <dimen name="compute_content_view">1dp</dimen>
+    <dimen name="compute_content_padding">5dp</dimen>
+    <dimen name="compute_content_margin">10dp</dimen>
+    <dimen name="compute_content_image">30dp</dimen>
+    <dimen name="compute_content_xijie_padding">10dp</dimen>
+    <dimen name="compute_content_textsize">18dp</dimen>
+
+    <dimen name="health_padding">15dp</dimen>
+    <dimen name="health_int_title">22dp</dimen>
+    <dimen name="health_int_text">15dp</dimen>
+    <dimen name="health_int_text_between_title">10dp</dimen>
+    <dimen name="health_content_text">18dp</dimen>
+    <dimen name="health_content_edittext">15dp</dimen>
+    <dimen name="health_view">10dp</dimen>
+    <dimen name="health_margintop">7dp</dimen>
+    <dimen name="health_rb_left">35dp</dimen>
+
+
+    <dimen name="motion_padding">15dp</dimen>
+    <dimen name="motion_int_title">22dp</dimen>
+    <dimen name="motion_int_text">15dp</dimen>
+    <dimen name="motion_int_text_between_title">10dp</dimen>
+    <dimen name="motion_content_text">18dp</dimen>
+    <dimen name="motion_content_edittext">15dp</dimen>
+    <dimen name="motion_view">10dp</dimen>
+    <dimen name="motion_margintop">7dp</dimen>
+
+    <dimen name="motion_pop_padding">10dp</dimen>
+    <dimen name="motion_pop_text">18dp</dimen>
+
+    <dimen name="daka_text">17dp</dimen>
+    <dimen name="daka_padding">10dp</dimen>
+
+
+    <dimen name="article_padding">10dp</dimen>
+    <dimen name="article_title">25dp</dimen>
+    <dimen name="article_con">18dp</dimen>
+    <dimen name="article_ds">15dp</dimen>
+    <dimen name="article_mtop">15dp</dimen>
+    <dimen name="article_image">20dp</dimen>
+    <dimen name="article_myimage_w">320dp</dimen>
+    <dimen name="article_myimage_h">200dp</dimen>
+
+    <dimen name="banner_article_myimage_h">230dp</dimen>
+    <dimen name="banner_article_padding">10dp</dimen>
+    <dimen name="banner_article_text">15dp</dimen>
+    <dimen name="banner_article_matop">10dp</dimen>
+
+
+    <dimen name="audio_padding">10dp</dimen>
+    <dimen name="audio_myimage">250dp</dimen>
+    <dimen name="audio_text">15dp</dimen>
+    <dimen name="audio_mtop">20dp</dimen>
+    <dimen name="audio_mleft">10dp</dimen>
+    <dimen name="audio_btn_h">50dp</dimen>
+    <dimen name="audio_btn_w">150dp</dimen>
+
+
+
+    <dimen name="guide_mt">10dp</dimen>
+    <dimen name="guide_mb">40dp</dimen>
+    <dimen name="guide_text_big">30dp</dimen>
+    <dimen name="guide_text">15dp</dimen>
+    <dimen name="guide_btn_w">70dp</dimen>
+    <dimen name="guide_btn_h">30dp</dimen>
+
+
+    <dimen name="guide_item_miv">65dp</dimen>
+    <dimen name="guide_item_padding">10dp</dimen>
+    <dimen name="guide_item_mt">20dp</dimen>
+    <dimen name="guide_item_ml">10dp</dimen>
+    <dimen name="guide_item_text_big">20dp</dimen>
+    <dimen name="guide_item_text">17dp</dimen>
+
+
+    <dimen name="main_image">100dp</dimen>
+    <dimen name="main_text">25dp</dimen>
+    <dimen name="main_mt">40dp</dimen>
+
+
+    <dimen name="navi_btn">25dp</dimen>
+    <dimen name="navi_text">12dp</dimen>
+    <dimen name="navi_mt">3dp</dimen>
+
+
+    <dimen name="share_image">50dp</dimen>
+    <dimen name="share_mr">40dp</dimen>
+    <dimen name="share_mt">100dp</dimen>
+
+    <dimen name="search_text">15dp</dimen>
+    <dimen name="search_padding">10dp</dimen>
+
+
+    <dimen name="publish_myimage">100dp</dimen>
+    <dimen name="publish_padding">15dp</dimen>
+    <dimen name="publish_con_h">200dp</dimen>
+    <dimen name="publish_con_text">18dp</dimen>
+    <dimen name="publish_text">12dp</dimen>
+    <dimen name="publish_btn_h">25dp</dimen>
+    <dimen name="publish_btn_w">60dp</dimen>
+
+
+    <dimen name="mainpage_banner_m">10dp</dimen>
+    <dimen name="mainpage_banner_h">180dp</dimen>
+    <dimen name="mainpage_banner_b">50dp</dimen>
+    <dimen name="mainpage_banner_t">10dp</dimen>
+    <dimen name="mainpage_text">15dp</dimen>
+    <dimen name="mainpage_text_padding">15dp</dimen>
+
+
+
+<!--lcy-->
+    <dimen name="text_shuoming_high">15dp</dimen>
+    <dimen name="shiwu_high">20dp</dimen>
+    <dimen name="zuofa">18dp</dimen>
+    <dimen name="tupian_high">140dp</dimen>
+    <dimen name="view_high">1dp</dimen>
+    <dimen name="topview_high">25dp</dimen>
+    <dimen name="twotopview_high">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="high_margin">10dp</dimen>
+    <dimen name="btn_high_margin">25dp</dimen>
+
+</resources>

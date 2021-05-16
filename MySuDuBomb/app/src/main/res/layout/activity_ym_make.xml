@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <com.example.mysudubomb.myview.MyImageView
+        android:id="@+id/miv_yumi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tupian_high"
+/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_shuoming_high"
+        android:text="“来一口松仁玉米，让你的一天都变得甜甜的”"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_high"
+        android:background="#4C4C4E"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="734大卡；碳水化合物20.76克;脂肪17.97克;蛋白质5.76克"
+        android:textSize="@dimen/text_shuoming_high"
+        android:textColor="@color/normal"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#282829"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="食材"
+        android:textSize="@dimen/shiwu_high"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twotopview_high"
+        android:background="#DBDBDD"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  玉米粒"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="200g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  松仁"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="20g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  胡萝卜"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="20g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  速冻蔬菜"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="50g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  盐"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="5g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="@dimen/view_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   做法：平底锅涂一层薄油，小火将松仁翻炒上色；锅中倒少许油，将速冻蔬菜炒熟；倒入玉米粒，翻炒均匀；加入盐，糖，蚝油。翻炒均匀；最后加入松仁，翻炒匀即可出锅"
+            android:textSize="@dimen/zuofa"
+            android:textColor="@color/normal"/>
+        <View
+            android:layout_marginTop="@dimen/topview_high"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_high"
+            android:background="#DBDBDD"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

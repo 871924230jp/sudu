@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_layout_comput"
+    android:layout_margin="@dimen/compute_content_xijie_padding"
+    android:padding="@dimen/compute_content_xijie_padding"
+    >
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMR(基础代谢率)是指人在非活动状态下，维持生命所需的最低能量。"
+        android:textSize="@dimen/compute_content_textsize"/>
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="        基础代谢越高相对来说减脂越容易，随着年龄的增长，BMR会逐渐降低，这意味着您身体机能将会下降，减肥也越来越困难。"
+        android:textSize="@dimen/compute_content_textsize"/>
+</LinearLayout>

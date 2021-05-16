@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:background="@mipmap/mine_touxiang"
+        android:id="@+id/civ_admin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/tv_admin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/civ_admin" />
+        <TextView
+            android:id="@+id/tv_admin_time"
+
+            android:textSize="12dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ADA8A8"
+            android:layout_toRightOf="@id/civ_admin"
+            android:layout_alignBottom="@id/civ_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--<TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textSize="15dp"
+            android:textColor="#D12121"
+            />-->
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp">
+        <ImageView
+            android:id="@+id/iv_admin"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/motion_padding">
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="运动消耗计算"
+        android:textSize="@dimen/motion_int_title"/>
+
+    <TextView
+        android:textColor="@color/color_Notetext"
+        android:layout_marginTop="@dimen/motion_int_text_between_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我们会根据您的运动时长和运动方式，计算出您消耗的卡路里，选择什么样的运动方式，才能让减肥事业事半功倍呢？如果好奇快来计算一下吧！"
+        android:textSize="@dimen/motion_int_text"/>
+</LinearLayout>

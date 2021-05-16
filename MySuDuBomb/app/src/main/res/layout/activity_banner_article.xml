@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BannerArticleActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/color_Maincolor"
+        >
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_Maincolor"
+        android:padding="@dimen/all_title_padding">
+        <Button
+            android:onClick="onclick"
+            android:id="@+id/btn_finish_banner_ar"
+            android:layout_width="@dimen/all_title_bt_size"
+            android:layout_height="@dimen/all_title_bt_size"
+            android:background="@mipmap/jiantou_left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="减肥冷知识"
+            android:textSize="@dimen/all_title_text_size"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_Whitecolor"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_article_myimage_h"
+        android:background="@mipmap/banner_one_image"/>
+<LinearLayout
+    android:padding="@dimen/banner_article_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.无辣不欢者福音：吃辣有助减肥"
+        android:textSize="@dimen/banner_article_text"
+        android:textColor="@color/color_Maintext"/>
+    <TextView
+        android:layout_marginTop="@dimen/banner_article_matop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      辣椒中含有丰富的辣椒素，可以刺激全身脂肪细胞燃烧产热供能！除了辣椒外，黑胡椒和芥末也有类似功效.除此之外，餐前闻一闻清新气味，如薄荷、胡椒等，能起到抑制食欲的作用。这是因为这种气味能刺激人体大脑中的下丘脑，是一种饥饿信息抑制信号。"
+        android:textSize="@dimen/banner_article_text"
+        android:textColor="@color/color_Notetext"/>
+    <TextView
+        android:layout_marginTop="@dimen/banner_article_matop"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.节食不是“绝食”，“绝食”减肥反弹率超高"
+        android:textSize="@dimen/banner_article_text"
+        android:textColor="@color/color_Maintext"/>
+    <TextView
+        android:layout_marginTop="@dimen/banner_article_matop"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      首先节食减肥不是通过不吃饭来达到摄入量减少。节食是指节制饮食，通过进行“规定饮食”的方法来达到减少能量摄入。很遗憾，很多小伙伴都将节食减肥吃成了“绝食”减肥，一天一碗粥，还没瘦下来先饿死了。长期的减少身体能量摄入，大脑会自动调节身体能量代谢平衡以适应当前情况，比如降低肌肉含量，降低基础代谢等。等恢复到正常饮食，低能量“摄入”的危机状态解除，大脑会调控身体来“屯粮”，这也是为什么节食减肥容易反弹。"
+        android:textSize="@dimen/banner_article_text"
+        android:textColor="@color/color_Notetext"/>
+</LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/banner_article_myimage_h"
+                android:background="@mipmap/banner_one_image_two"/>
+            <LinearLayout
+                android:padding="@dimen/banner_article_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3.边走边吃容易胖！"
+                    android:textSize="@dimen/banner_article_text"
+                    android:textColor="@color/color_Maintext"/>
+                <TextView
+                    android:layout_marginTop="@dimen/banner_article_matop"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      很多小伙伴都有边走边吃的经历吧，有时是为了赶时间赶地铁，有时则是路边买的小吃。边走边吃会延缓人体正常饱腹感传导速度，从而在不知不觉中吃下更多的食物。因此，相比细嚼慢咽而言，狼吞虎咽会使你摄入更多热量！细嚼慢咽给了神经更充足的反应和效应时间，而狼吞虎咽则会在你可能已经吃饱的时，却并没有及时感到吃饱的信号，从而默默的吃多了。"
+                    android:textSize="@dimen/banner_article_text"
+                    android:textColor="@color/color_Notetext"/>
+                <TextView
+                    android:layout_marginTop="@dimen/banner_article_matop"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4.体重不是判断肥胖的唯一标准，谨防“隐形”肥胖"
+                    android:textSize="@dimen/banner_article_text"
+                    android:textColor="@color/color_Maintext"/>
+                <TextView
+                    android:layout_marginTop="@dimen/banner_article_matop"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      体重是衡量一个人体型的重要指标，但并不能准确的描述一个人的身体状态。除了“外在”的肥胖外，还有一种人是隐形的“胖子”。他们体重正常，甚至有的看起来还很苗条，但他们体内内脏脂肪的含量已经超过正常范围。"
+                    android:textSize="@dimen/banner_article_text"
+                    android:textColor="@color/color_Notetext"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

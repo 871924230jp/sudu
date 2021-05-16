@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+> <com.example.mysudubomb.myview.MyImageView
+    android:id="@+id/miv_doujiang"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tupian_high"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_shuoming_high"
+        android:text="“早上来一杯散发着南瓜香的豆浆，让整个早晨都洋溢着幸福感”"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_high"
+        android:background="#4C4C4E"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="33大卡 2.67克蛋白质 1.26克脂肪 "
+        android:textSize="@dimen/text_shuoming_high"
+        android:textColor="@color/normal"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="@color/color_youyouyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="食材"
+        android:textSize="@dimen/shiwu_high"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorwhite"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  纯净水"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="500g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  南瓜"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="100g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  黄豆"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="70g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/color_youyouyou"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_shuoming_high"
+            android:text="  冰糖"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="30g"
+            android:textSize="@dimen/text_shuoming_high"
+            android:textColor="@color/color_youyouyou"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="@dimen/view_high"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   做法：准备好食材，黄豆浸泡三个小时以上南瓜切片，与适量的冰糖和浸泡好的黄豆放入豆浆机加入适量水到水位线上插入电源，按下豆浆机的功能键即可。"
+                android:textSize="@dimen/zuofa"
+                android:textColor="@color/normal"/>
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_high"
+                android:background="#DBDBDD"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

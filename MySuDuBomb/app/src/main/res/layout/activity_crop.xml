@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+   >
+
+    <LinearLayout
+        android:id="@+id/rl_crop_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_crop_do"
+        android:layout_centerHorizontal="true"
+        >
+        <com.edmodo.cropper.CropImageView
+            android:id="@+id/CropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+    </LinearLayout>
+
+
+<RelativeLayout
+    android:id="@+id/ll_crop_do"
+    android:padding="12dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/lay"
+    >
+    <TextView
+        android:id="@+id/tet_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textSize="16dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FDFAFA"/>
+    <TextView
+        android:id="@+id/tet_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="16dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#FDFAFA"/>
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#FDFAFA"
+        android:textSize="16sp"
+        android:text="裁剪"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/lay"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tet_11"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FDFAFA"
+            android:textSize="15sp"
+            android:text="1:1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tet_43"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FDFAFA"
+            android:textSize="15sp"
+            android:text="4:3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tet_34"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FDFAFA"
+            android:textSize="15sp"
+            android:text="3:4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

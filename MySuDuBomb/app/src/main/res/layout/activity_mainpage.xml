@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_Whitecolor"
+>
+
+    <include layout="@layout/activity_mainpage_search"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_margin="@dimen/mainpage_banner_m"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainpage_banner_h" />
+
+</LinearLayout>
+    <include layout="@layout/activity_mainpage_app" />
+    <View
+        android:layout_marginTop="@dimen/mainpage_banner_t"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_view"
+        android:background="@color/color_view"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大家都在看"
+        android:textSize="@dimen/mainpage_text"
+        android:padding="@dimen/mainpage_text_padding"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/activity_mainpage_see" />
+</LinearLayout>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

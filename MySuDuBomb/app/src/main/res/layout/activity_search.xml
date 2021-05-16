@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>
+    <LinearLayout
+        android:padding="@dimen/search_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+        <EditText
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:id="@+id/et_search"
+            android:drawableLeft="@mipmap/search"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="     请输入您感兴趣的食物"
+            android:background="@drawable/shape_layout_search_fill"
+            android:textSize="@dimen/search_text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="onclick"
+        android:id="@+id/ll_search"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_search_fh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_Maintext"
+            android:textSize="@dimen/search_text" />
+    </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

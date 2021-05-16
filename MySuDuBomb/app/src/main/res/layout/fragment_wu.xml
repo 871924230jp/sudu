@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/ll_content_part"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical" android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="“科学的配比能让你的增肌减脂计划更容易实现呦！！”"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#240210"/>
+                </LinearLayout>
+                <Button
+
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/btn_JXmake"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="@mipmap/jixiong"
+                    />
+                <!--<include layout="@layout/breakfast_doujiang"/>-->
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="鸡胸沙拉"
+                        android:textSize="20dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#001" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="西式   午餐   能量 "
+                        android:textSize="15dp"
+                        android:textColor="@color/colorLN"
+                        android:layout_marginLeft="25dp"
+                        />
+
+
+                </LinearLayout>
+                <Button
+
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="@mipmap/yimian"
+                    android:id="@+id/btn_YiMianMake"/>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="意大利面"
+                        android:textSize="20dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#001" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="西式   素食主义   主食   能量   午餐"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorLN"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"/>
+
+
+                </LinearLayout>
+                <Button
+
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="@mipmap/jiangniurou"
+                    android:id="@+id/btn_JNRMake"/>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="酱牛肉"
+                        android:textSize="20dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#001" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="中式   肉食主义  增肌 "
+                        android:textSize="15dp"
+                        android:textColor="@color/colorLN"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"/>
+
+
+                </LinearLayout>
+                <!--<include layout="@layout/breakfast_nyg"/>-->
+                <Button
+
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:id="@+id/btn_RBDFMake"
+                    android:background="@mipmap/ribendoufu"/>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="红烧日本豆腐"
+                        android:textSize="20dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#001" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 午餐   热菜   素食主义"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorLN"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"/>
+
+
+                </LinearLayout>
+                <View
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#4C4C4E"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

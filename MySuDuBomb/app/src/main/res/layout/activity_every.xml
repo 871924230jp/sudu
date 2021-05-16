@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    >
+    <LinearLayout
+        android:id="@+id/ll_content_part"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/colorwhite"
+        android:id="@+id/ll_function"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true" >
+        <Button
+            android:background="#E4EECC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="早餐"
+            android:textSize="25dp"
+            android:id="@+id/btn_zaocan"
+            android:onClick="click"/>
+        <Button
+            android:background="#E4DF89"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="午餐"
+            android:textSize="25dp"
+            android:id="@+id/btn_wucan"
+            android:onClick="click"/>
+        <Button
+            android:background="#BEECA1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="晚餐"
+            android:textSize="25dp"
+            android:id="@+id/btn_wancan"
+            android:onClick="click"/>
+        <Button
+            android:background="#A0F1C6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="加餐"
+            android:textSize="25dp"
+            android:id="@+id/btn_jiacan"
+            android:onClick="click"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

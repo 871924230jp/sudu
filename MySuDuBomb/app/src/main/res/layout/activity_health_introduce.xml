@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/health_padding">
+    <TextView
+        android:textColor="@color/color_Notetext"        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="健康评测"
+        android:textSize="@dimen/health_int_title"/>
+
+    <TextView
+        android:textColor="@color/color_Notetext"        android:layout_marginTop="@dimen/health_int_text_between_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我们会根据您的基本信息，计算出BMI、BMR以及标准体重，有效的了解自身身体状况，从而制定高效的饮食计划，达到减脂/增肌的目的"
+        android:textSize="@dimen/health_int_text"/>
+</LinearLayout>

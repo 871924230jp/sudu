@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+<com.example.mysudubomb.myview.MyImageView
+    android:background="@mipmap/loading_default"
+    android:id="@+id/iv_share_it"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/mine_touxiang"/>
+            <TextView
+                android:id="@+id/tv_share_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="没有感情的萝卜"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_share_it"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:text="11111111111111111111121212"/>
+    </LinearLayout>
+</LinearLayout>

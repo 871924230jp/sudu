@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_Maincolor"
+        android:padding="@dimen/all_title_padding">
+        <Button
+            android:onClick="onclick"
+            android:layout_width="@dimen/all_title_bt_size"
+            android:layout_height="@dimen/all_title_bt_size"
+            android:background="@mipmap/jiantou_left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于我们"
+            android:textSize="@dimen/all_title_text_size"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_Whitecolor"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:padding="@dimen/guanyu_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/color_Maintext"
+            android:layout_marginTop="@dimen/guanyu_margintop_big"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       科学健身饮食，事半功倍！"
+            android:textSize="@dimen/guanyu_textsize"/>
+        <TextView
+            android:textColor="@color/color_Maintext"
+            android:layout_marginTop="@dimen/guanyu_margintop_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       本app处于初步发展阶段，欢迎大家提出宝贵意见，接下来的版本中我们会不断完善，有任何关于减脂增肌方面的问题，可以随时联系我们；"
+            android:textSize="@dimen/guanyu_textsize"/>
+        <TextView
+            android:textColor="@color/color_Maintext"
+            android:layout_marginTop="@dimen/guanyu_margintop_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       我们报以热忱，以科学严谨的态度为每一位用户服务！"
+            android:textSize="@dimen/guanyu_textsize"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/guanyu_margintop_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="@dimen/guanyu_image_size"
+            android:layout_height="@dimen/guanyu_image_size"
+            android:src="@mipmap/guanyu_image"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:id="@+id/ll_guide_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:padding="@dimen/all_title_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/color_Maincolor">
+            <Button
+                android:layout_width="@dimen/all_title_bt_size"
+                android:layout_height="@dimen/all_title_bt_size"
+                android:onClick="onclick"
+                android:id="@+id/btn_finish_guide"
+                android:background="@mipmap/jiantou_left"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1800 -1890kcal"
+                android:textSize="@dimen/guide_text_big"
+                android:layout_marginTop="@dimen/guide_mt"
+                android:textColor="@color/color_Whitecolor"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="每日摄入热量的参考范围"
+                android:textColor="@color/color_guide_text"
+                android:textSize="@dimen/guide_text"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/guide_mb"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_guide_bottom"
+        android:layout_below="@id/ll_guide_top"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_guide" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_guide_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_guide_dibu"
+            android:padding="@dimen/all_title_padding">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="总热量:1569kcal"
+                    android:textSize="@dimen/guide_text"
+                    android:textColor="@color/color_Maintext"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn_guide_daka"
+                    android:layout_width="@dimen/guide_btn_w"
+                    android:layout_height="@dimen/guide_btn_h"
+                    android:text="打卡"
+                    android:background="@drawable/shape_layout_jisuan_btn"
+                    android:textColor="@color/color_Whitecolor"
+                    android:onClick="onclick"
+                    android:textSize="@dimen/guide_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
